@@ -1,0 +1,59 @@
+﻿; Hatsume Miku Cursors
+; Right click on the file "install.inf" and select "Install". Then apply Hatsume Miku cursors in Control Panel > Appearance and Personalization > Personalization > Change mouse pointers.
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%Arrow%,%10%\%CUR_DIR%\%Help%,%10%\%CUR_DIR%\%AppStarting%,%10%\%CUR_DIR%\%Wait%,%10%\%CUR_DIR%\%Crosshair%,%10%\%CUR_DIR%\%IBeam%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%No%,%10%\%CUR_DIR%\%SizeNS%,%10%\%CUR_DIR%\%SizeWE%,%10%\%CUR_DIR%\%SizeNWSE%,%10%\%CUR_DIR%\%SizeNESW%,%10%\%CUR_DIR%\%SizeAll%,%10%\%CUR_DIR%\%UpArrow%,%10%\%CUR_DIR%\%Person%,%10%\%CUR_DIR%\%Pin%"
+
+; -- Installed files
+
+[Scheme.Cur]
+Move.ani
+Normal Select.cur
+Precision Select.ani
+Text.cur
+Diagonal Resize 2.ani
+HandWriting.cur
+Help Select.cur
+Horizontal Resize.ani
+Link Select.cur
+Unavailable.ani
+Vertical Resize.ani
+Working in Background.ani
+Alternate Select.ani
+Busy.ani
+Diagonal Resize 1.ani
+Person Select.cur
+Location Select.cur
+Install.inf
+
+[Strings]
+CUR_DIR       = "Cursors\Hatsume Miku"
+SCHEME_NAME   = "Hatsume Miku"
+SizeAll       = "Move.ani"
+Arrow         = "Normal Select.cur"
+Crosshair     = "Precision Select.ani"
+IBeam         = "Text.cur"
+SizeNESW      = "Diagonal Resize 2.ani"
+NWPen         = "HandWriting.cur"
+Help          = "Help Select.cur"
+SizeWE        = "Horizontal Resize.ani"
+Hand          = "Link Select.cur"
+No            = "Unavailable.ani"
+SizeNS        = "Vertical Resize.ani"
+AppStarting   = "Working in Background.ani"
+UpArrow       = "Alternate Select.ani"
+Wait          = "Busy.ani"
+SizeNWSE      = "Diagonal Resize 1.ani"
+Person        = "Person Select.cur"
+Pin           = "Location Select.cur"
